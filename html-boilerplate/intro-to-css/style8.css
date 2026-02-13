@@ -155,3 +155,41 @@ a.task3 {
   flex-grow: 1;
   justify-content: flex-start;
 }
+
+.body4 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+div.task4 {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+div.item4 {
+  max-width:200px;
+}
+
+.img4 {
+  width: 100px;
+  height: 100px;
+}
+
+.title4 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
