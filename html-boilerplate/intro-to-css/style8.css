@@ -95,48 +95,54 @@ a {
 
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-body.task3 {
+.body3 {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
 }
 
-.header.task3 {
+.header3 {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 
-  display:flex;
-  justify-content:space-between;
-  gap:16px;
+  display: flex;
+  justify-content: center;
 }
 
-.profile-image.task3 {
+.profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  
+  margin: 0 8px;
+  flex-grow: 0;
 }
 
-.logo.task3 {
+.logo3 {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  justify-self: flex-start;
+  
+  margin: 0 8px;
+  flex-grow: 0;
 }
 
-button.task3 {
+.notifications {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  justify-self: flex-end;
+
+  margin: 0 8px;
+  flex-grow: 0;
 }
 
-a {
+a.task3 {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
@@ -144,5 +150,8 @@ a {
 
 .links {
   list-style-type: none;
-
+  
+  margin: 0 8px;
+  flex-grow: 1;
+  justify-content: flex-start;
 }
